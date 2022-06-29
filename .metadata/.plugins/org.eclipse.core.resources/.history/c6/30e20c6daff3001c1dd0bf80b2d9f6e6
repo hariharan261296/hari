@@ -1,0 +1,14 @@
+package Review;
+
+public class Staticblock {
+
+	public static void main(String[] args) {
+		System.out.println("hello harry");
+		// TODO Auto-generated method stub
+
+	}
+	 static {
+		System.out.println("Static block");
+	}
+
+}

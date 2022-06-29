@@ -1,0 +1,15 @@
+package StringsExample;
+
+public class Sample {
+
+	public static void main(String[] args) {
+//		String word="sham shantha kumar";
+//		String word1=word.toUpperCase();
+//		System.out.println(word1);
+		
+		String a="SHAM SHANTHA KUMAR";
+		String b=a.toLowerCase();
+		System.out.println(b);
+	}
+
+}

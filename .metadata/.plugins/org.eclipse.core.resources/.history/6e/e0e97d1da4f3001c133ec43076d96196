@@ -1,0 +1,20 @@
+package Review;
+
+public class Teacher {
+	int idno;
+	String name;
+	static String schoolName="St peter matriculation higher secondary school";
+	
+	static void change() {
+		System.out.println("Don bosco matriculation higher secondary school");
+	}
+	
+	public Teacher(int no,String n) {
+		this.idno=no;
+		this.name=n;
+	}
+	public void show() {
+		System.out.println(idno+" "+name+" "+schoolName);
+	}
+	
+}

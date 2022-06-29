@@ -1,0 +1,16 @@
+package Review;
+
+public class Employee {
+	int empid;
+	String name;
+	static String companyName;
+	
+	public Employee(int empid,String name) {
+		empid=empid;
+		name=name;
+	}
+	public void display() {
+		System.out.println(empid+" "+name+" "+companyName);
+	}
+
+}

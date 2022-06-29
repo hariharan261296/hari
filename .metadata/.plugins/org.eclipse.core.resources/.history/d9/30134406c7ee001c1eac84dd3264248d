@@ -1,0 +1,12 @@
+package OOps;
+
+public class UsingRegex {
+
+	public static void main(String[] args) {
+		String word="hello-world";
+		String[] words=word.split("\\w");
+		// TODO Auto-generated method stub
+
+	}
+
+}
